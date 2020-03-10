@@ -1,4 +1,4 @@
-# csp-tech-radar
+# d4i-tech-radar
 The Content Supply Platforms department technology radar.
 
 ## Visualisation
