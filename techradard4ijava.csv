@@ -8,7 +8,7 @@ Long lived branches with Gitflow,hold,techniques,TRUE,Gitflow is a strict branch
 Microservices Envy,hold,techniques,TRUE,Microservices can offer significant advantages to organizations
 Testing as a separate team,hold,techniques,TRUE,"Fast feedback is a core tenet of Agile and critical to the success of a project. Using a separate QA team slows down this feedback, creates an ""us and them"" mentality and makes it more difficult to build quality into the software. Testing should be a tightly integrated activity and isn't something the team can outsource. We recommend integrated teams where testers work closely with developers instead of having testing as a separate organization."
 Anemic REST,hold,techniques,TRUE,Failure to properly model the domain as a set of resources. Naively developing services that simply expose static
-Blue / Green Deployments,assess,techniques,FALSE,"Blue-green deployment is a technique that reduces downtime and risk by running two identical production environments called Blue and Green.""-Â cloudfoundry. Could not have said it better myself. Two environments, both production. One might have version 1.0.0 (green) while blue has 1.0.1. Many times traffic is slowly increased to blue while watching for errors or undesirable changes in user behavior. Once all the traffic is moved off from the green (1.0.0) version the environment is shut down. At that point ""blue"" becomes ""green"" and the cycle starts over."
+Blue / Green Deployments,assess,techniques,FALSE,"Blue-green deployment is a technique that reduces downtime and risk by running two identical production environments called Blue and Green.""-Ã‚Â cloudfoundry. Could not have said it better myself. Two environments, both production. One might have version 1.0.0 (green) while blue has 1.0.1. Many times traffic is slowly increased to blue while watching for errors or undesirable changes in user behavior. Once all the traffic is moved off from the green (1.0.0) version the environment is shut down. At that point ""blue"" becomes ""green"" and the cycle starts over."
 ELK Stack,assess,tools,TRUE,Supporting and developing distributed systems requires the ability to debug events that occur across many systems. Having the logs emitted from each system centralised in a single store that is easily searched is vital for this. The ELK (Elasticsearch
 Prometheus and Grafana,adopt,tools,TRUE,For monitoring and altering of the health of applications in production
 Consul,trial,tools,TRUE,Consul is a the service-discovery tool supporting both DNS- and HTTP-based discovery mechanisms. It goes beyond other discovery tools by providing customizable health checks for registered services
@@ -17,7 +17,8 @@ Jenkins,adopt,tools,false,Use Jenkins whit pipeline multibranch for CI/CD
 Istio and Serivice Mesh,assess,tools,true,
 Docker,adopt,platforms,TRUE,Development teams love Docker
 Kubernetes,adopt,platforms,TRUE,Kubernetes is Google's answer to the problem of deploying containers into a cluster of machines
-Cassandra,adopt,platforms,TRUE,Apache's Cassandra database is a powerful
+Stackdriver,adopt,platforms,false,Stackdriver is the tool used for GCP for monitoring app and computer engine
+Cassandra,hold,platforms,TRUE,Apache's Cassandra database is a powerful
 Kafka,adopt,platforms,TRUE,Apache Kafka continues to build momentum as an open source messaging framework that provides a solution for publishing ordered event feeds to large numbers of independent
 PostgresSQL,hold,platforms,TRUE,Base de datos Relacional 
 MySQL,adopt,platforms,TRUE,MySQL is a fast
@@ -29,14 +30,14 @@ Groovy,adopt,languages & frameworks,TRUE,The DSL allows the definition of a job
 Spring Boot 4,adopt,languages & frameworks,TRUE,A lot of work has gone into Spring Boot to reduce complexity and dependencies. If you live in a Spring ecosystem and are moving to microservices
 Spring Boot 5,assess,languages & frameworks,TRUE,Spring 5 is the first major release, almost four years after Spring Framework 4.0. During this time, most of the enhancements were done in Spring boot project. In Spring 5, these are some exciting features worth mention </br>
 OpenJDK11,adopt,languages & frameworks,TRUE,There are lots of new language features provided after Java 8 that should help us. Also as of Java 11 OracleJDK and OpenJDK will essentially be identical
-Quartz,adopt,languages & frameworks,TRUE,Quartz is a richly featured
-TypeScript, trial,languages & frameworks,TRUE,TypeScript is a superset of JavaScript which primarily provides optional static typing
+Quartz,hold,languages & frameworks,TRUE,Quartz is a richly featured
+Spring Scheduler,adopt,languages & frameworks,false,It is a framework to schedule tasks
 Kotlin,assess,languages & frameworks,TRUE,"<a href=""http://kotlinlang.org/"">Kotlin</a> has experienced an accelerated rate of adoption and rapid growth of tooling support. Some of the reasons behind its popularity are its concise syntax, null safety, ease of transition from Java and interoperability with other JVM-based languages in general, and that it doubles as a great introductory language to functional programming. With JetBrains adding the ability to compile Kotlin to native binaries on multiple platforms, as well as transpile to JavaScript, we believe it has the potential of much wider use by the larger community of mobile and native application developers. Some of the tooling such as static and coverage code analysis have yet to mature, but given the industry adoption of Kotlin in many production applications, we believe Kotlin should be assessed in our department."
 OracleJDK8,adopt,languages & frameworks,TRUE,Oracle's JDK8 reached 'End of Public Updates' in January 2019. Any new public updates will only be released for <strong>personal use only</strong> and <strong>should not be used</strong> by Sky in a commercial capacity! To avoid not being able to recieve security updates
 AWS S3,adopt,platforms,TRUE,Storage Files
-Apache Airflow,assess,languages & frameworks,true,"Pero realmente, ¿qué es Apache Airflow? Se trata de una plataforma a través de la cual podemos crear workflows de forma programática y, además, planificarlos y monitorizarlos de forma centralizada.
+Apache Airflow,assess,languages & frameworks,true,"Pero realmente, Â¿quÃ© es Apache Airflow? Se trata de una plataforma a travÃ©s de la cual podemos crear workflows de forma programÃ¡tica y, ademÃ¡s, planificarlos y monitorizarlos de forma centralizada.
 
-Un workflow dentro de Airflow podríamos definirlo como una secuencia de tareas, disparadas por un evento o planificación y que suelen usarse para manejar pipelines de datos."
+Un workflow dentro de Airflow podrÃ­amos definirlo como una secuencia de tareas, disparadas por un evento o planificaciÃ³n y que suelen usarse para manejar pipelines de datos."
 Chaos Engineering with Service Mesh,assess,languages & frameworks,true,
 Pact Foundation,trial,tools,false,
 Blue / Green Deployments,assess,techniques,FALSE,
@@ -44,7 +45,7 @@ TDD,assess,techniques,TRUE,
 Clean Arquitecture,assess,techniques,TRUE,
 Layer Arquitecture,adopt,techniques,FALSE,
 DDD,assess,techniques,FALSE,
-Branch by Abstraction ,assess,techniques,FALSE, “Branch by Abstraction” es una técnica para realizar un gran cambio a un sistema de software de una manera gradual que te permitirá ir actualizando el sistema de una manera estructurada mientras está todavía en proceso 
+Branch by Abstraction ,assess,techniques,FALSE,Â Â“Branch by AbstractionÂ” es una tÃ©cnica para realizar un gran cambio a un sistema de software de una manera gradual que te permitirÃ¡ ir actualizando el sistema de una manera estructurada mientras estÃ¡ todavÃ­a en proceso 
 Strangler application ,assess,techniques,FALSE,Tecnica para desacoplar un monolito - Ref Martin Flower
 Feature toggle ,assess,techniques,TRUE,Tecnica para poder realizar feature flags ya sea por usuarios o roles o alguna otra estrategia
 Caching Strategy,trial,techniques,TRUE,Cache-Aside   &  Read-Through Cache & Write - Through & Write Around-Back https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/Strategies.html
@@ -53,7 +54,7 @@ Presto,hold,languages & frameworks,true,"Presto is an open source distributed SQ
 Presto was designed and written from the ground up for interactive analytics and approaches the speed of commercial data warehouses while scaling to the size of organizations like Facebook."
 VerneMQ,hold,platforms,true,"What is VerneMQ?
 VerneMQ is an open source (Apache License version 2) MQTT broker supporting the MQTT 3.1.1 standard as well as MQTT 5.0 (though, to be fair MQTT 5.0 support has not yet been merged to master at the time of writing, but should be within a few days). Besides being just another MQTT broker, VerneMQ was built from the start to be a distributed MQTT broker with high scalability in mind."
-RSQL,hold,languages & frameworks,true,"RSQL is a super-set of the Feed Item Query Language (FIQL) – a clean and simple filter syntax for feeds, so it fits quite naturally into a REST API."
+RSQL,hold,languages & frameworks,true,"RSQL is a super-set of the Feed Item Query Language (FIQL) Â– a clean and simple filter syntax for feeds, so it fits quite naturally into a REST API."
 Query by Example,assess,languages & frameworks,false,Query by Example (QBE) is a user-friendly querying technique with a simple interface. It allows dynamic query creation and does not require you to write queries that contain field names. In fact, Query by Example does not require you to write queries by using store-specific query languages at all.
 Firebase database,trial,platforms,false,
 jooQ,assess,languages & frameworks,false,Learn how to set up and use Jooq (Jooq Object Oriented Querying) with the Spring Framework.
