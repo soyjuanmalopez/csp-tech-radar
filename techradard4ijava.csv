@@ -15,17 +15,17 @@ Consul,trial,tools,TRUE,Consul is a the service-discovery tool supporting both D
 Pact Foundation,trial,tools,TRUE,A cross platform testing tool framework used for Consumer Driven Contract Testing. It generates JSON contracts via unit tests which can then be exchanged with the provider. It involves minimal setup for both Provider and Consumer and has well written documentation and resources dedicated to it. Its power lies in its simplicity.
 Jenkins,adopt,tools,false,Use Jenkins whit pipeline multibranch for CI/CD
 Istio and Serivice Mesh,assess,tools,true,
-Docker,adopt,platforms,TRUE,Development teams love Docker
-Kubernetes,adopt,platforms,TRUE,Kubernetes is Google's answer to the problem of deploying containers into a cluster of machines
-Stackdriver,adopt,platforms,false,Stackdriver is the tool used for GCP for monitoring app and computer engine
-Cassandra,hold,platforms,TRUE,Apache's Cassandra database is a powerful
-Kafka,adopt,platforms,TRUE,Apache Kafka continues to build momentum as an open source messaging framework that provides a solution for publishing ordered event feeds to large numbers of independent
-PostgresSQL,hold,platforms,TRUE,Base de datos Relacional 
-MySQL,adopt,platforms,TRUE,MySQL is a fast
-CockroachDB,assess,platforms,TRUE,"CockroachDB is a very promising new database technology based on Google?s Spanner database. It allows developers to run and scale it like any stateless service in Kubernetes while offering consistent ACID transactions and good performance. On top that it offers a SQL compliant interface. Almost sounds too good to be true, which is why we would like to assess this for now. An interesting article on running it in k8s can be found <a href=""https://dzone.com/articles/kubernetes-distributed-stateful-apps-using-cockroa"">here</a>."
-Couchbase,adopt,platforms,TRUE,Couchbase (not to be confused with CouchDB) is a fast
-Redis,hold,platforms,FALSE,Cache supported for different cloud Provierdes (k
-KubeMQ,assess,platforms,NEW,KubeMQ is a Kubernetes Message Queue Broker
+Docker,adopt,platforms & data,TRUE,Development teams love Docker
+Kubernetes,adopt,platforms & data,TRUE,Kubernetes is Google's answer to the problem of deploying containers into a cluster of machines
+Stackdriver,adopt,platforms & data,false,Stackdriver is the tool used for GCP for monitoring app and computer engine
+Cassandra,hold,platforms & data,TRUE,Apache's Cassandra database is a powerful
+Kafka,adopt,platforms & data,TRUE,Apache Kafka continues to build momentum as an open source messaging framework that provides a solution for publishing ordered event feeds to large numbers of independent
+PostgresSQL,hold,platforms & data,TRUE,Base de datos Relacional 
+MySQL,adopt,platforms & data,TRUE,MySQL is a fast
+CockroachDB,assess,platforms & data,TRUE,"CockroachDB is a very promising new database technology based on Google?s Spanner database. It allows developers to run and scale it like any stateless service in Kubernetes while offering consistent ACID transactions and good performance. On top that it offers a SQL compliant interface. Almost sounds too good to be true, which is why we would like to assess this for now. An interesting article on running it in k8s can be found <a href=""https://dzone.com/articles/kubernetes-distributed-stateful-apps-using-cockroa"">here</a>."
+Couchbase,adopt,platforms & data,TRUE,Couchbase (not to be confused with CouchDB) is a fast
+Redis,hold,platforms & data,FALSE,Cache supported for different cloud Provierdes
+KubeMQ,assess,platforms & data,NEW,KubeMQ is a Kubernetes Message Queue Broker
 Groovy,adopt,languages & frameworks,TRUE,The DSL allows the definition of a job
 Spring Boot 4,adopt,languages & frameworks,TRUE,A lot of work has gone into Spring Boot to reduce complexity and dependencies. If you live in a Spring ecosystem and are moving to microservices
 Spring Boot 5,assess,languages & frameworks,TRUE,Spring 5 is the first major release, almost four years after Spring Framework 4.0. During this time, most of the enhancements were done in Spring boot project. In Spring 5, these are some exciting features worth mention </br>
@@ -34,7 +34,7 @@ Quartz,hold,languages & frameworks,TRUE,Quartz is a richly featured
 Spring Scheduler,adopt,languages & frameworks,false,It is a framework to schedule tasks
 Kotlin,assess,languages & frameworks,TRUE,"<a href=""http://kotlinlang.org/"">Kotlin</a> has experienced an accelerated rate of adoption and rapid growth of tooling support. Some of the reasons behind its popularity are its concise syntax, null safety, ease of transition from Java and interoperability with other JVM-based languages in general, and that it doubles as a great introductory language to functional programming. With JetBrains adding the ability to compile Kotlin to native binaries on multiple platforms, as well as transpile to JavaScript, we believe it has the potential of much wider use by the larger community of mobile and native application developers. Some of the tooling such as static and coverage code analysis have yet to mature, but given the industry adoption of Kotlin in many production applications, we believe Kotlin should be assessed in our department."
 OracleJDK8,adopt,languages & frameworks,TRUE,Oracle's JDK8 reached 'End of Public Updates' in January 2019. Any new public updates will only be released for <strong>personal use only</strong> and <strong>should not be used</strong> by Sky in a commercial capacity! To avoid not being able to recieve security updates
-AWS S3,adopt,platforms,TRUE,Storage Files
+AWS S3,adopt,platforms & data,TRUE,Storage Files
 Apache Airflow,assess,languages & frameworks,true,"Pero realmente, ¿qué es Apache Airflow? Se trata de una plataforma a través de la cual podemos crear workflows de forma programática y, además, planificarlos y monitorizarlos de forma centralizada.
 
 Un workflow dentro de Airflow podríamos definirlo como una secuencia de tareas, disparadas por un evento o planificación y que suelen usarse para manejar pipelines de datos."
@@ -52,16 +52,16 @@ Caching Strategy,trial,techniques,TRUE,Cache-Aside   &  Read-Through Cache & Wri
 Presto,hold,languages & frameworks,true,"Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes.
 
 Presto was designed and written from the ground up for interactive analytics and approaches the speed of commercial data warehouses while scaling to the size of organizations like Facebook."
-VerneMQ,hold,platforms,true,"What is VerneMQ?
+VerneMQ,hold,platforms & data,true,"What is VerneMQ?
 VerneMQ is an open source (Apache License version 2) MQTT broker supporting the MQTT 3.1.1 standard as well as MQTT 5.0 (though, to be fair MQTT 5.0 support has not yet been merged to master at the time of writing, but should be within a few days). Besides being just another MQTT broker, VerneMQ was built from the start to be a distributed MQTT broker with high scalability in mind."
 RSQL,hold,languages & frameworks,true,"RSQL is a super-set of the Feed Item Query Language (FIQL)  a clean and simple filter syntax for feeds, so it fits quite naturally into a REST API."
 Query by Example,assess,languages & frameworks,false,Query by Example (QBE) is a user-friendly querying technique with a simple interface. It allows dynamic query creation and does not require you to write queries that contain field names. In fact, Query by Example does not require you to write queries by using store-specific query languages at all.
-Firebase database,trial,platforms,false,
+Firebase database,trial,platforms & data,false,
 jooQ,assess,languages & frameworks,false,Learn how to set up and use Jooq (Jooq Object Oriented Querying) with the Spring Framework.
 JWT,adopt,languages & frameworks,true,
 OAUTH2,adopt,languages & frameworks,true,
-keycloack,trial,platforms,true,
+keycloack,trial,platforms & data,true,
 loombok,adopt,languages & frameworks,true,Frameworks to generate constructur, getter and setter
 resillence4j,assess,languages & frameworks,true,Frameworks opensucer adopted por Spring - Circuit Braker
-Spinnaker,hold,platforms,true,"Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
+Spinnaker,hold,platforms & data,true,"Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 Created at Netflix, it has been battle-tested in production by hundreds of teams over millions of deployments. It combines a powerful and flexible pipeline management system with integrations to the major cloud providers. https://www.spinnaker.io/"
