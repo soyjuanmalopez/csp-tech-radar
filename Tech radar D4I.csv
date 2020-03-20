@@ -2,8 +2,8 @@ name,ring,quadrant,isNew,description
 Prometheus and Grafana,adopt,tools,FALSE,For monitoring and altering of the health of applications in production
 Sonarqube,adopt,tools,FALSE,"Catch bugs and vulnerabilities in your app, with thousands of automated Static Code Analysis rules."
 Jenkins,adopt,tools,FALSE,Use Jenkins whit pipeline multibranch for CI/CD
-Teleprecense,trial,tools,FALSE,Telepresence: a local development environment for a remote Kubernetes cluster.
-JIB,trial,tools,FALSE,Jib builds optimized Docker and OCI images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices.
+Teleprecense,to adopt,tools,FALSE,Telepresence: a local development environment for a remote Kubernetes cluster.
+JIB,to adopt,tools,FALSE,Jib builds optimized Docker and OCI images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices.
 Service Mesh - Istio & Envoy,assess,tools,FALSE,Istio addresses the challenges developers and operators face as monolithic applications transition towards a distributed microservice architecture. To see how
 ELK Stack,assess,tools,FALSE,Supporting and developing distributed systems requires the ability to debug events that occur across many systems. Having the logs emitted from each system centralised in a single store that is easily searched is vital for this. The ELK (Elasticsearch
 Consul,assess,tools,FALSE,Consul is a the service-discovery tool supporting both DNS- and HTTP-based discovery mechanisms. It goes beyond other discovery tools by providing customizable health checks for registered services
@@ -14,9 +14,9 @@ Pipelines as Code,adopt,techniques,FALSE,Pipelines as code is defining the build
 GitFlow,adopt,techniques,FALSE,Gitflow is a strict branching pattern for releases using Git. Although not an inherently bad pattern
 Layer Arquitecture,adopt,techniques,FALSE,Layered architecture patterns are n-tiered patterns where the components are organized in horizontal layers. This is the traditional method for designing most software and is meant to be self-independent. This means that all the components are interconnected but do not depend on each other.
 Microservices,adopt,techniques,FALSE,Microservices can offer significant advantages to organizations
-Caching Strategy,trial,techniques,FALSE,Cache-Aside   &  Read-Through Cache & Write - Through & Write Around-Back https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/Strategies.html
-Clean Arquitecture,trial,techniques,FALSE,
-Event driven Arquitecture,trial,techniques,FALSE,
+Caching Strategy,to adopt,techniques,FALSE,Cache-Aside   &  Read-Through Cache & Write - Through & Write Around-Back https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/Strategies.html
+Clean Arquitecture,to adopt,techniques,FALSE,
+Event driven Arquitecture,to adopt,techniques,FALSE,
 Blue-Green Deployments,assess,techniques,FALSE,Blue-green deployment is a technique that reduces downtime and risk by running two identical production environments called Blue and Green. At any time, only one of the environments is live, with the live environment serving all production traffic. For this example, Blue is currently live and Green is idle
 TDD,assess,techniques,FALSE,Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the code is improved so that the tests pass. This is opposed to software development that allows code to be added that is not proven to meet requirements.
 Domain Driven Design,assess,techniques,FALSE,In other words, during application development, the domain is the “sphere of knowledge and activity around which the application logic revolves.” Another common term used during software development is the domain layer or domain logic , which may be better known to many developers as the business logic
@@ -31,13 +31,14 @@ Kubernetes,adopt,platforms & data,FALSE,Kubernetes is Google's answer to the pro
 AWS S3,adopt,platforms & data,FALSE,Storage Files
 Kafka,adopt,platforms & data,FALSE,Apache Kafka continues to build momentum as an open source messaging framework that provides a solution for publishing ordered event feeds to large numbers of independent
 MySQL,adopt,platforms & data,FALSE,MySQL is a fast
+PostgresSQL,adopt,platforms & data,FALSE,Base de datos Relacional 
+Activemq,adopt,platforms & data,FALSE,ActiveMQ. Apache ActiveMQ is the most popular open source, multi-protocol  Java-based messaging server. It supports industry standard protocols so users get the benefits of client choices across a broad range of languages and platforms.
 Stackdriver,adopt,platforms & data,FALSE,Stackdriver is the tool used for GCP for monitoring app and computer engine, almost four years after Spring Framework 4.0. During this time, most of the enhancements were done in Spring boot project. In Spring 5, these are some exciting features worth mention </br>
-Firebase database,trial,platforms & data,FALSE,
-keycloack,trial,platforms & data,FALSE,Keycloak is an open source Identity and Access Management solution aimed at modern applications and services. It makes it easy to secure applications and services with little to no code.
+Firebase database,to adopt,platforms & data,FALSE,
+keycloack,to adopt,platforms & data,FALSE,Keycloak is an open source Identity and Access Management solution aimed at modern applications and services. It makes it easy to secure applications and services with little to no code.
 KubeMQ,assess,platforms & data,FALSE,KubeMQ is a Kubernetes Message Queue Broker
 Redis,assess,platforms & data,FALSE,Cache supported for different cloud Provierdes
 Cassandra,hold,platforms & data,FALSE,Apache's Cassandra database is a powerful
-PostgresSQL,hold,platforms & data,FALSE,Base de datos Relacional 
 CockroachDB,hold,platforms & data,FALSE,"CockroachDB is a very promising new database technology based on Google?s Spanner database. It allows developers to run and scale it like any stateless service in Kubernetes while offering consistent ACID transactions and good performance. On top that it offers a SQL compliant interface. Almost sounds too good to be true, which is why we would like to assess this for now. An interesting article on running it in k8s can be found <a href=""https://dzone.com/articles/kubernetes-distributed-stateful-apps-using-cockroa"">here</a>."
 Spinnaker,hold,platforms & data,FALSE,Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 Groovy DSL,adopt,frameworks,FALSE,The DSL allows the definition of a job in Jenkins
@@ -47,8 +48,8 @@ OAUTH2,adopt,frameworks,FALSE,
 Spring Boot 4,adopt,frameworks,FALSE,A lot of work has gone into Spring Boot to reduce complexity and dependencies. If you live in a Spring ecosystem and are moving to microservices
 loombok,adopt,frameworks,FALSE,Frameworks to generate constructur
 OracleJDK8,adopt,frameworks,FALSE,Oracle's JDK8 reached 'End of Public Updates' in January 2019. Any new public updates will only be released for <strong>personal use only</strong> and <strong>should not be used</strong> by Sky in a commercial capacity! To avoid not being able to recieve security updates
-OpenJDK11,trial,frameworks,FALSE,There are lots of new language features provided after Java 8 that should help us. Also as of Java 11 OracleJDK and OpenJDK will essentially be identical
-Spring Web Flux,trial,frameworks,FALSE,Frameworks support by Spring based in Reactive Programin
+OpenJDK11,to adopt,frameworks,FALSE,There are lots of new language features provided after Java 8 that should help us. Also as of Java 11 OracleJDK and OpenJDK will essentially be identical
+Spring Web Flux,to adopt,frameworks,FALSE,Frameworks support by Spring based in Reactive Programin
 Spring Boot 5,assess,frameworks,FALSE,Spring 5 is the first major release
 Chaos Engineering,assess,frameworks,FALSE,In software development, a given software system's ability to tolerate failures while still ensuring adequate quality of service—often generalized as resiliency—is typically specified as a requirement. However, development teams often fail to meet this requirement due to factors such as short deadlines or lack of knowledge of the field. Chaos engineering is a technique to meet the resilience requirement., Query by Example does not require you to write queries by using store-specific query languages at all.,,
 resillence4j,assess,frameworks,FALSE,Frameworks opensucer adopted por Spring - Circuit Braker
