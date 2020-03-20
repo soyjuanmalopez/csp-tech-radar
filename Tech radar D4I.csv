@@ -1,6 +1,9 @@
 name,ring,quadrant,isNew,description
 Prometheus and Grafana,adopt,tools,FALSE,For monitoring and altering of the health of applications in production
+Sonarqube,adopt,tools,FALSE,"Catch bugs and vulnerabilities in your app, with thousands of automated Static Code Analysis rules."
 Jenkins,adopt,tools,FALSE,Use Jenkins whit pipeline multibranch for CI/CD
+Teleprecense,trial,tools,FALSE,Telepresence: a local development environment for a remote Kubernetes cluster.
+JIB,trial,tools,FALSE,Jib builds optimized Docker and OCI images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices.
 Service Mesh - Istio & Envoy,assess,tools,FALSE,Istio addresses the challenges developers and operators face as monolithic applications transition towards a distributed microservice architecture. To see how
 ELK Stack,assess,tools,FALSE,Supporting and developing distributed systems requires the ability to debug events that occur across many systems. Having the logs emitted from each system centralised in a single store that is easily searched is vital for this. The ELK (Elasticsearch
 Consul,assess,tools,FALSE,Consul is a the service-discovery tool supporting both DNS- and HTTP-based discovery mechanisms. It goes beyond other discovery tools by providing customizable health checks for registered services
