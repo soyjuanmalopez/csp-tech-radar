@@ -1,6 +1,6 @@
 name,ring,quadrant,isNew,description
 Prometheus and Grafana,adopt,tools,FALSE,For monitoring and altering of the health of applications in production
-Sonarqube,adopt,tools,FALSE,"Catch bugs and vulnerabilities in your app, with thousands of automated Static Code Analysis rules."
+"Sonarqube,adopt,tools,FALSE,""Catch bugs and vulnerabilities in your app, with thousands of automated Static Code Analysis rules."""
 Jenkins,adopt,tools,FALSE,Use Jenkins whit pipeline multibranch for CI/CD
 Teleprecense,to adopt,tools,FALSE,Telepresence: a local development environment for a remote Kubernetes cluster.
 JIB,to adopt,tools,FALSE,Jib builds optimized Docker and OCI images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices.
@@ -39,7 +39,7 @@ keycloack,to adopt,platforms & data,FALSE,Keycloak is an open source Identity an
 KubeMQ,assess,platforms & data,FALSE,KubeMQ is a Kubernetes Message Queue Broker
 Redis,assess,platforms & data,FALSE,Cache supported for different cloud Provierdes
 Cassandra,hold,platforms & data,FALSE,Apache's Cassandra database is a powerful
-CockroachDB,hold,platforms & data,FALSE,"CockroachDB is a very promising new database technology based on Google?s Spanner database. It allows developers to run and scale it like any stateless service in Kubernetes while offering consistent ACID transactions and good performance. On top that it offers a SQL compliant interface. Almost sounds too good to be true, which is why we would like to assess this for now. An interesting article on running it in k8s can be found <a href=""https://dzone.com/articles/kubernetes-distributed-stateful-apps-using-cockroa"">here</a>."
+"CockroachDB,hold,platforms & data,FALSE,""CockroachDB is a very promising new database technology based on Google?s Spanner database. It allows developers to run and scale it like any stateless service in Kubernetes while offering consistent ACID transactions and good performance. On top that it offers a SQL compliant interface. Almost sounds too good to be true, which is why we would like to assess this for now. An interesting article on running it in k8s can be found <a href=""""https://dzone.com/articles/kubernetes-distributed-stateful-apps-using-cockroa"""">here</a>."""
 Spinnaker,hold,platforms & data,FALSE,Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 Groovy DSL,adopt,frameworks,FALSE,The DSL allows the definition of a job in Jenkins
 Spring Scheduler,adopt,frameworks,FALSE,It is a framework to schedule tasks
@@ -58,3 +58,8 @@ Quartz,hold,frameworks,FALSE,Quartz is a richly featured
 Presto,hold,frameworks,FALSE,Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes.
 RSQL,hold,frameworks,FALSE,RSQL is a super-set of the Feed Item Query Language (FIQL) Â– a clean and simple filter syntax for feeds, so it fits quite naturally into a REST API.
 JooQ,hold,frameworks,FALSE,Learn how to set up and use Jooq (Jooq Object Oriented Querying) with the Spring Framework.
+Thymeleaf + Flying saucer,to adopt,frameworks,FALSE,Generate PDF files processing HTML templates styled with CSS 2.1
+Clean Code,adopt,techniques,FALSE,Set of informal rules that help to improve the quality and maintainability of the generated code.
+Spring Cloud Feign,adopt,frameworks,FALSE,Feign is a declarative web service client. It makes writing web service clients easier.
+Maven,adopt,tools,FALSE,Maven is a powerful project management tool that is based on POM (project object model). It is used for projects build, dependency and documentation. It simplifies the build process
+Archetype,to adopt,FALSE,Archetype is a Maven project templating toolkit. An archetype is defined as an original pattern or model from which all other things of the same kind are made. Using archetypes provides a great way to enable developers quickly in a way consistent with best practices employed by your project or organization.
