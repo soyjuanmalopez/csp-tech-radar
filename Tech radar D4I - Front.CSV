@@ -1,15 +1,3 @@
 name,ring,quadrant,isNew,description
-Angular,adopt,language & frameworks,It is an application design framework and development platform for creating efficient and sophisticated single-page apps.
-React,adopt,language & frameworks,React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
-Redux,adopt,language & frameworks,Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
-CSS3,adopt,language & frameworks,It is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.
-HTML5,adopt,language & frameworks,It is a markup language used for structuring and presenting content on the World Wide Web. HTML5 was the fifth and last major version of HTML that is a World Wide Web Consortium recommendation.
-ES6,adopt,language & frameworks,ECMAScript is a scripting-language specification standardized by Ecma International. It was created to standardize JavaScript to help foster multiple independent implementations. JavaScript ES6 brings new syntax and new awesome features to make your code more modern and more readable. It allows you to write less code and do more. 
-Typescript,adopt,language & frameworks,It is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for development of large applications and transcompiles to JavaScript.
-Webpack,adopt,language & frameworks,It is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser yet it is also capable of transforming bundling or packaging
-NPM,adopt,language & frameworks,It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client also called npm and an online database of public and paid-for private packages called the npm registry.
-NodeJs,adopt,language & frameworks,It is an open-source cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser. 
-ExpressJs,adopt,language & frameworks,It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
-Jasmine,adopt,language & frameworks,It is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks.
-Karma,adopt,language & frameworks,It is a test runner for JavaScript that runs on Node. Js
-Jest,adopt,language & frameworks,It is a JavaScript Testing Framework maintained by Facebook Inc. with a focus on simplicity. It works with projects using: Babel TypeScript Node.js React Angular and Vue.js. It aims to work out of the box and config free.
+Angular,adopt,frameworks,It is an application design framework and development platform for creating efficient and sophisticated single-page apps.
+React,adopt,frameworks,React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
